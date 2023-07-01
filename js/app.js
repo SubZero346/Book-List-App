@@ -27,6 +27,7 @@ function addBook(e) {
     isbn
   };
 
+  // Pushing newBook to storage
   books.push(newBook);
 
   renderBook(newBook);
