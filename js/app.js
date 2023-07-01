@@ -11,7 +11,7 @@ bookList.addEventListener("click", handleBookListClick);
 
 function addBook(e) {
   e.preventDefault();
-
+  // Define title, author, and isbn variables
   const title = titleInput.value.trim();
   const author = authorInput.value.trim();
   const isbn = isbnInput.value.trim();
